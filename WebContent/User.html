@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>user page</title>
+
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+        <style type="text/css">
+table th, td{
+	margin-left:9px;
+	text-align: center;
+	border-color: black;
+	padding-right:1cm;
+
+}
+body
+{
+	background-image: url('ar.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+			font: 20px/1.5 bold, Times New Roman, Helvetica, compressed;
+	color:#400040;
+}
+
+</style>
+<script type="text/javascript">
+
+ function insvalid()
+            {
+
+                if(document.form.username.value == "")
+                    {
+                        alert("Please Enter username");
+                        return false;
+                    }
+               if(document.form.password.value == "")
+                    {
+                        alert("Please Enter Password");
+                        return false;
+                    }
+               if(document.form.role.value == "select")
+                    {
+                        alert("Please select role");
+                        return false;
+                    }
+               
+                   return true;
+                   
+            }
+            function clear()
+            {
+                username.value = "";
+                password.value = "";
+                role.value = "select";
+               
+            }
+        </script>
+
+</head>
+<body class="body">
+<form name="form" method="post" action="UserCode.jsp" onsubmit="return insvalid();">
+
+
+<table>
+<tr>
+<td colspan="2">
+<h1>
+AIRLINE RESERVATION SYSTEM
+</h1>
+
+</td>
+</tr>
+<tr>
+
+<td colspan="2">
+<div align="center">
+<h2>LOGIN PAGE</h2>
+</div>
+</td>
+</tr>
+</table>
+
+
+<table>
+<tr>
+<td>
+<div align="left">
+Username
+</div>
+</td>
+<td >
+<input type="text" name="username" class="input"/>
+</td>
+</tr>
+
+
+<tr>
+<td >
+<div align="left">
+Password
+</div>
+</td>
+<td>
+<input type="password" name="password" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+<div align="left">
+Role
+</div>
+</td>
+<td>
+<select name="role" class="input">
+  <option value="select">select</option>
+  <option value="admin">Admin</option>
+  <option value="employee">Employee</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>
+
+<input type="submit" name="submit" value="Log In" class="myButton" />
+
+</td>
+<td>
+<input type="reset" name="reset" value="Reset" class="myButton"/>
+</td>
+</tr>
+</table>
+
+</form>
+</body>
+</html>

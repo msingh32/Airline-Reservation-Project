@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin Page</title>
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+<style type="text/css">
+table th, td{
+	margin-left: 8px;
+	text-align: center;
+	padding: 4px;
+
+}
+body
+{
+	background-image: url('sky.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+</style>
+</head>
+<body class="body">
+<form method="post">
+
+
+<table>
+<tr>
+<td colspan="3">
+<div align="right" style="padding-left: 20cm">
+<input class="myButton" type="button" value="Log Out" onclick="window.location.href='User.html'"/>
+</div>
+</td>
+</tr>
+</table>
+
+<table >
+<tr><td colspan="3"><h1>AIRLINE RESERVATION SYSTEM</h1></td></tr>
+<tr><td COLSPAN="3" style="height:1cm" ><h3>WELCOME ADMIN </h3></td></tr>
+<tr>
+<td>
+<div align="center">
+<input class="myButton" type="button" value="Add Flight Details" onclick="window.location.href='addFlightDetails.html'"/>
+</div>
+</td>
+<td>
+<div align="center">
+<input class="myButton" type="button" value="Delete Flight Details" onclick="window.location.href='delFlight.jsp'"/>
+</div>
+</td>
+<td>
+<div align="center">
+<input class="myButton" type="button" value="Update Flight Details" onclick="window.location.href='updateFlightDetails.jsp'"/>
+</div>
+</td>
+</tr>
+
+
+
+<tr>
+<td>
+<div align="center">
+<input class="myButton" type="button" value="Add Employee" onclick="window.location.href='addEmployeeDetails.html'"/>
+</div>
+</td>
+<td>
+<div align="center">
+<input class="myButton" type="button" value="Delete Employee" onclick="window.location.href='delEmployee.jsp'"/>
+</div>
+</td>
+<td>
+<div align="center">
+<input class="myButton" type="button" value=" Update Employee" onclick="window.location.href='updateEmployeeDetails.jsp'"/>
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<div align="center">
+<input class="myButton" type="button" value="Reservation Details" onclick="window.location.href='bookDetailsReport.jsp'"/>
+</div>
+</td>
+<td >
+<div align="center">
+<input class="myButton" type="button" value="Cancellation Details" onclick="window.location.href='cancelDetails.jsp'"/>
+</div>
+</td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

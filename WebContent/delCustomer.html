@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Information Deletion</title>
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+<style type="text/css">
+table th, td{
+	margin-left: 8px;
+	text-align: center;
+	padding: 4px;
+
+}
+body
+{
+	background-image: url('ar.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+</style>
+</head>
+
+
+<body class="body" >
+<form action="delCustomer.jsp" method="post">
+<table>
+<tr><td colspan="3" align="center">
+<div align="center">
+<STRONG>CUSTOMER DELETION</STRONG>
+</div>
+</td>
+</tr>
+
+<tr>
+<td><STRONG>Enter the Customer ID </STRONG></td>
+<td colspan="2"><input type="text" name="cid" class="input">
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="DELETE"  name="delete" class="myButton" ></td>
+<td><input type="reset" value="CANCEL" class="myButton"/></td>
+<td><input type="button" value="BACK" class="myButton" onclick="window.location.href='Employee.html'"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+

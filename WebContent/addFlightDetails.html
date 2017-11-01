@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+
+        <style type="text/css">
+
+
+
+table, th, td, tr {
+    padding: 4px;
+   
+}
+body
+{
+	background-image: url('ar.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+
+</style>
+
+</head>
+<body class="body">
+<form action="addFlightDetails.jsp" method="post">
+
+<table>
+<tr><th colspan="2"><h2>Enter the flight details
+</h2></th></tr>
+<tr>
+<td >
+Flight Number:
+</td>
+<td>
+<input type="text" name="flightno" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Flight Name:
+</td>
+<td>
+<input type="text" name="flightname" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Source:
+</td>
+<td>
+<input type="text" name="source" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Destination:
+</td>
+<td>
+<input type="text" name="destination" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Departure time:
+</td>
+<td>
+<input type="time" name="dtime" class="input"/>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Arrival time:
+</td>
+<td>
+<input type="time" name="atime" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Duration:
+</td>
+<td>
+<input type="text" name="duration" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Fare:
+</td>
+<td>
+<input type="text" name="fare" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Capacity:
+</td>
+<td>
+<input type="text" name="capacity" class="input"/>
+</td>
+</tr>
+
+<tr>
+
+<td colspan="2">
+<input type="submit" value="Add" name="Add" class="myButton"/>
+<input type="reset" value="Cancel" name="Cancel" class="myButton"/>
+<input type="button" value="Back" onclick="window.location.href='Admin1.html'" class="myButton"/>
+
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

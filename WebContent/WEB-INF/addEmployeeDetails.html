@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Add New Employee</title>
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+
+        <style type="text/css">
+
+
+
+table, th, td, tr {
+    padding: 4px;
+   
+}
+body
+{
+	background-image: url('ar.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+
+</style>
+
+</head>
+<body class="body">
+<form method="post" action="addCustomerDetails.jsp">
+
+<table>
+<tr><th colspan="2"><h2>Enter the Customer details
+</h2></th></tr>
+<tr>
+<td >
+User_ID:
+</td>
+<td>
+<input type="text" name="User_ID" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+User Name:
+</td>
+<td>
+<input type="text" name="username" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Password:
+</td>
+<td>
+<input type="text" name="password" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+First Name:
+</td>
+<td>
+<input type="datetime" name="FirstName" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Last Name:
+</td>
+<td>
+<input type="email" name="LastName" class="input"/>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Age:
+</td>
+<td>
+<input type="number" name="age" class="input"/>
+</td>
+</tr>
+
+
+<tr>
+<td>
+Gender
+</td>
+<td>
+<input type="text" name="Gender" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Phone Number
+</td>
+<td>
+<input type="text" name="Phoneno" class="input"/>
+</td>
+</tr>
+
+<tr>
+<td>
+Email ID
+</td>
+<td>
+<input type="text" name="emailID" class="input"/>
+</td>
+</tr>
+
+
+<tr>
+
+<td colspan="2">
+<input type="submit" value="Add" name="Add" class="myButton"/>
+<input type="reset" value="Cancel" name="Cancel" class="myButton"/>
+<input type="button" value="Back" onclick="window.location.href='Admin.html'" class="myButton"/>
+
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

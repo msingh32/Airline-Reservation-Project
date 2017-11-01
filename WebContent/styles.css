@@ -1,0 +1,124 @@
+@CHARSET "ISO-8859-1";
+*{
+	margin:0px;
+	margin-left: 40px;
+	margin-top: 10px;
+	
+	
+}
+
+.html{
+	
+	background-image: url('download1.jpeg') ;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	color:black;
+	font: 20px/1.5 Arial, Helvetica, sans-serif;
+	color:#130952;
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.body{
+		background-image: url('download1.jpeg') ;
+	
+	font: 20px/1.5 Arial, Helvetica, sans-serif;
+	color:#130952;
+	background-repeat: no-repeat;
+	position: absolute;
+	background-size: cover;
+	background-attachment: fixed; 
+	
+}
+
+
+
+.flip-item img{
+	margin-bottom: 10px;
+	background-image: url("airline-reservation.png");
+}
+
+.myButton {
+	-moz-box-shadow: 3px 4px 0px 0px #2e5070;
+	-webkit-box-shadow: 3px 4px 0px 0px #2e5070;
+	box-shadow: 3px 4px 0px 0px #2e5070;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #130952), color-stop(1, #130952));
+	background:-moz-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-webkit-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-o-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-ms-linear-gradient(top, #130952 5%, #130952 100%);
+	background:linear-gradient(to bottom, #130952 5%, #130952 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#130952', endColorstr='#130952',GradientType=0);
+	background-color:#130952;
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;
+	border-radius:15px;
+	border:1px solid #1f1e1f;
+	display:inline-block;
+	cursor:pointer;
+	color:#f3f2ff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 27px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #f2f3f7;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #130952), color-stop(1, #130952));
+	background:-moz-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-webkit-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-o-linear-gradient(top, #130952 5%, #130952 100%);
+	background:-ms-linear-gradient(top, #130952 5%, #130952 100%);
+	background:linear-gradient(to bottom, #130952 5%, #130952 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#130952', endColorstr='#130952',GradientType=0);
+	background-color:#130952;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+.img{
+	background-image: url("airline-reservation.png");
+	
+}
+.input {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 4px;
+  padding: 0px 1px 1px 3px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 20px/normal "Times New Roman", Times, serif;
+  color: rgba(0,142,198,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(252,252,252,1);
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.radio1 {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+.input[type=radio] + .span {
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin: 0 0.5em;

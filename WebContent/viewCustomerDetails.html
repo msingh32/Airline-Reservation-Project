@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Customer Information</title>
+<link href="styles.css" type="text/css" rel="stylesheet" media="all" />
+<style type="text/css">
+table th, td{
+	margin-left: 8px;
+	text-align: center;
+	padding: 4px;
+
+}
+body
+{
+	background-image: url('ar.jpg') ;
+	background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;
+			background-color: #999;
+}
+</style>
+</head>
+
+
+<body class="body" >
+<form action="viewCustomerDetails.jsp" method="post">
+<table>
+<tr><td colspan="3" align="center">
+<div align="center">
+<STRONG>View Customer Details</STRONG>
+</div>
+</td>
+</tr>
+
+<tr>
+<td><STRONG>Enter the Customer ID </STRONG></td>
+<td colspan="2"><input type="text" name="Customer_ID" class="input">
+</td>
+</tr>
+<tr>
+<td><input type="submit" value="Show Details"  name="Show Details" class="myButton" ></td>
+<td><input type="button" value="BACK" class="myButton" onclick="window.location.href='Employee.html'"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>
+
